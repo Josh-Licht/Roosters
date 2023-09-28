@@ -1,0 +1,130 @@
+footer { padding-top: 1rem; }
+footer.bg-footer { background-color: var(--footer); color: #fff;}
+footer.bg-footer a {color: #fff;}
+footer.bg-footer small a:hover {text-decoration: underline;}
+footer .footer-bottom { background-color: var(--footer); }
+
+footer.bg-footer .flex {
+  flex-direction: column;
+  text-align: center;
+}
+
+#footnav {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 1rem 0;
+}
+
+.footer-logo {
+  max-width: 200px;
+  height: auto;
+  padding: 1rem 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.nav-footer {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-footer .navbar-nav {
+  justify-content: center;
+}
+
+.foot-address {
+  line-height: 1.5;
+  font-size: 1.25rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.location-title {
+  display: block;
+  text-transform: uppercase;
+  color: #ed1c24;
+  font-size: 1.5rem;
+}
+
+small {
+  font-size: 80%;
+  font-weight: normal;
+}
+
+.foot-hours { font-size: 1.25rem; }
+
+.foot-hours td {
+  border-top: 0px;
+  padding-left: 0;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.foot-phone {
+  font-size: 1.25;
+  margin: 1.5rem 0rem;
+}
+
+.foot-phone a {
+  padding: .75rem 3rem;
+  font-size: 1.25rem;
+  border-radius: 0;
+}
+
+.sm-icons {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+
+.sm-icons li:not(:last-child) {
+  margin-right: 5px;
+}
+
+.sm-icons li a {
+  font-size: 1rem;
+  color: #ed1c24;
+  transition: all .25s;
+}
+
+.sm-icons li a:hover {
+  color: #9e0d12;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.footer-bottom { 
+  padding: var(--size-16) 0;
+  margin-top: 2rem;
+  border-top: 1px solid #fff;
+}
+
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.copyright p { 
+  color: var(--white); 
+  font-size: 1rem;
+}
